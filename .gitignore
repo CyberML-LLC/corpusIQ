@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / Databricks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data & models (do not commit large artifacts)
+data/
+*.csv
+*.json
+*.parquet
+*.faiss
+*.bin
+*.pt
+*.safetensors
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Claim-extraction cache
+.corpusiq_cache/
+
+# Secrets (API keys)
+.env
+
+# Logs
+*.log
+
+# Cached dataset download
+data/*.csv
+
+# Eval outputs
+eval/results/
+
+# User projects created via app.py (contains ingested data / cascade outputs)
+projects/*
+!projects/.gitkeep
+
+# Small curated eval data that must be versioned
+!eval/recall_set/*.csv
+
+# Local project venv
+cIQenv/

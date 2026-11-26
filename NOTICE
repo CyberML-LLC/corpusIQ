@@ -1,0 +1,9 @@
+corpusIQ
+Copyright 2026 CyberML (https://cyberml.ai)
+
+This product is developed and maintained by CyberML.
+
+This product includes or downloads third-party components:
+- sentence-transformers/all-mpnet-base-v2 (Apache License 2.0)
+- cross-encoder/nli-deberta-v3-base, the base of the v4 filter model in models/v4_filter (Apache License 2.0)
+- Text quoted from Wikipedia in eval/recall_set/ (CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/)

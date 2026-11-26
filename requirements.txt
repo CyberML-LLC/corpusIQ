@@ -1,0 +1,31 @@
+# corpusIQ by CyberML (https://cyberml.ai): v4 filter + LLM judges (server/, web/).
+
+# Models: sentence retrieval (all-mpnet-base-v2) and the v4 student (DeBERTa-v3)
+torch
+transformers
+sentence-transformers
+
+# LLM judges (DeepSeek, OpenAI-compatible API; needs DEEPSEEK_API_KEY)
+openai
+
+# Data and text cleaning
+pandas
+numpy
+mwparserfromhell
+
+# Document ingestion: PDF / DOCX
+pypdf
+python-docx
+
+# API server (server/app.py)
+fastapi
+uvicorn
+python-multipart
+
+# Tests
+pytest
+
+# Cloud sources: install the ones you use
+# boto3                   # Amazon S3 and S3-compatible stores
+# azure-storage-blob      # Azure Blob Storage
+# google-cloud-storage    # Google Cloud Storage
